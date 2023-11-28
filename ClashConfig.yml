@@ -34,24 +34,27 @@ dns:
     - localhost.ptlogin2.qq.com
   nameserver-policy:
     "geosite:category-ads-all": rcode://success
-    "geosite:geolocation-!cn": [tls://8.8.4.4, https://1.0.0.1/dns-query]
-    "geosite:private,apple": https://dns.alidns.com/dns-query
+  #  "geosite:geolocation-!cn": [tls://8.8.4.4, https://1.0.0.1/dns-query]
+  #  "geosite:private,apple": https://dns.alidns.com/dns-query
   nameserver:
+    - dhcp://en0
+    - 192.168.31.1
+    - 223.5.5.5
     - tls://dot.pub
     - https://dns.alidns.com/dns-query
-  fallback:
-    - tls://dns.google
-    - https://1.0.0.1/dns-query
-  proxy-server-nameserver:
-    - https://doh.pub/dns-query
-  fallback-filter:
-    geoip: true
-    geoip-code: CN
-    geosite:
-      - gfw
-    ipcidr:
-      - 240.0.0.0/4
-    domain:
-      - "+.google.com"
-      - "+.facebook.com"
-      - "+.youtube.com"
+  #fallback:
+  #  - tls://dns.google
+  #  - https://1.0.0.1/dns-query
+  #proxy-server-nameserver:
+  #  - https://doh.pub/dns-query
+  #fallback-filter:
+  #  geoip: true
+  #  geoip-code: CN
+  #  geosite:
+  #    - gfw
+  #  ipcidr:
+  #    - 240.0.0.0/4
+  #  domain:
+  #    - "+.google.com"
+  #    - "+.facebook.com"
+  #    - "+.youtube.com"
