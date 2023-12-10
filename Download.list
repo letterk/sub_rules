@@ -27,3 +27,4 @@ PROCESS-NAME,Weiyun.exe
 PROCESS-NAME,baidunetdisk.exe
 #steam
 PROCESS-NAME,steam.exe
+PROCESS-NAME,steamwebhelper.exe
