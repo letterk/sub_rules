@@ -2,9 +2,9 @@ geodata-mode: true    #【Meta专属】使用geoip.dat数据库(默认：false�
 tcp-concurrent: true  #【Meta专属】TCP连接并发，如果域名解析结果对应多个IP，并发所有IP，选择握手最快的IP进行连接
 
 geox-url:
-  geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
-  geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
-  mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
+  geoip: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
 
 #sniffer:
 #  enable: true
@@ -42,7 +42,7 @@ dns:
   #  "geosite:geolocation-!cn": [tls://8.8.4.4, https://1.0.0.1/dns-query]
   #  "geosite:private,apple": https://dns.alidns.com/dns-query
   nameserver:
-    - dhcp://en0
+    - dhcp://auto
     - 192.168.31.1
     - 223.5.5.5
     - tls://dot.pub
