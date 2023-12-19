@@ -68,12 +68,12 @@ dns:
   #    - "+.facebook.com"
   #    - "+.youtube.com"
 
-rule-providers:
-  📥 下载工具:
-    {
-      type: http,
-      behavior: classical,
-      interval: 86400,
-      path: ./rule-providers/Download.yaml,
-      url: https://cdn.jsdelivr.net/gh/letterk/sub_rules@main/Download.yaml,
-    }
+# rule-providers:
+#   📥 下载工具:
+#     {
+#       type: http,
+#       behavior: classical,
+#       interval: 86400,
+#       path: ./rule-providers/Download.yaml,
+#       url: https://cdn.jsdelivr.net/gh/letterk/sub_rules@main/Download.yaml,
+#     }
