@@ -1,9 +1,9 @@
-geodata-mode: true     #【Meta专属】使用geoip.dat数据库(默认：false使用mmdb数据库)
-tcp-concurrent: true   #【Meta专属】TCP连接并发，如果域名解析结果对应多个IP，并发所有IP，选择握手最快的IP进行连接
+geodata-mode: true #【Meta专属】使用geoip.dat数据库(默认：false使用mmdb数据库)
+tcp-concurrent: true #【Meta专属】TCP连接并发，如果域名解析结果对应多个IP，并发所有IP，选择握手最快的IP进行连接
 
 profile:
   store-selected: true # 存储 select 选择记录
-  store-fake-ip: true  # 持久化 fake-ip
+  # store-fake-ip: true  # 持久化 fake-ip
 
 geox-url:
   geoip: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
@@ -52,8 +52,8 @@ dns:
     - tls://dot.pub
     - https://dns.alidns.com/dns-query
   fallback:
-   - tls://dns.google
-   - https://1.0.0.1/dns-query
+    - tls://dns.google
+    - https://1.0.0.1/dns-query
   #proxy-server-nameserver:
   #  - https://doh.pub/dns-query
   #fallback-filter:
@@ -67,3 +67,13 @@ dns:
   #    - "+.google.com"
   #    - "+.facebook.com"
   #    - "+.youtube.com"
+
+rule-providers:
+  📥 下载工具:
+    {
+      type: http,
+      behavior: classical,
+      interval: 86400,
+      path: ./rule-providers/Download.yaml,
+      url: https://cdn.jsdelivr.net/gh/letterk/sub_rules@main/Download.yaml,
+    }
