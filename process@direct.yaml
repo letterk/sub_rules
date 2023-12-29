@@ -13,3 +13,15 @@ payload:
   - PROCESS-NAME,Steam++.Accelerator.exe
   # 微软商店
   - PROCESS-NAME,WinStore.App.exe
+  # 有道云词典
+  - PROCESS-NAME,YoudaoDict.exe
+  - PROCESS-NAME,YoudaoOcr.exe
+  - PROCESS-NAME,Monitor.exe
+  - PROCESS-NAME,YoudaoWSH.exe
+  - PROCESS-NAME,text_extractor_host.exe
+  - PROCESS-NAME,YoudaoEH.exe
+  - PROCESS-NAME,YoudaoDictInstaller.exe
+  - PROCESS-NAME,YoudaoIE.exe
+  - PROCESS-NAME,YoudaoDictHelper.exe
+  - PROCESS-NAME,YodaoDict.exe
+  - PROCESS-NAME,YoudaoCookieAssist.exe
