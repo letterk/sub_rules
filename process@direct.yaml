@@ -25,3 +25,6 @@ payload:
   - PROCESS-NAME,YoudaoDictHelper.exe
   - PROCESS-NAME,YodaoDict.exe
   - PROCESS-NAME,YoudaoCookieAssist.exe
+  # 百度网盘
+  - PROCESS-NAME,baidunetdisk.exe
+  - PROCESS-NAME,baidunetdiskhost.exe
