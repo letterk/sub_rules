@@ -28,3 +28,5 @@ payload:
   # 百度网盘
   - PROCESS-NAME,baidunetdisk.exe
   - PROCESS-NAME,baidunetdiskhost.exe
+  # 小斧头
+  - PROCESS-NAME,Trainer.exe
