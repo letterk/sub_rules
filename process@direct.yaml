@@ -30,3 +30,5 @@ payload:
   - PROCESS-NAME,baidunetdiskhost.exe
   # 小斧头
   - PROCESS-NAME,Trainer.exe
+  # 命运2
+  - PROCESS-NAME,destiny2.exe
