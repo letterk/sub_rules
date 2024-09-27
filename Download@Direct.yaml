@@ -35,12 +35,11 @@ payload:
   # - PROCESS-NAME,aria2c
   # - PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,baidunetdisk.exe
-  - PROCESS-NAME,fdm
-  - PROCESS-NAME,fdm.exe
+  # - PROCESS-NAME,fdm
+  # - PROCESS-NAME,fdm.exe
   - PROCESS-NAME,qbittorrent
   - PROCESS-NAME,qbittorrent.exe
   - PROCESS-NAME,uTorrent
   - PROCESS-NAME,uTorrent.exe
-  - 
   - PROCESS-NAME,aDrive
   - PROCESS-NAME,aDrive.exe
